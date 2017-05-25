@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/casting_lnr"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- <LinearLayout
+        android:id="@+id/rootLay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" > -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/layApplied"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.sdi.castivate.fonts.ProximanovaCondSemiBold
+                    android:id="@+id/cast_title_no_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="15dp"
+                    android:gravity="start"
+                    android:singleLine="true"
+                    android:text="@string/cast_title"
+                    android:textColor="@color/cast_title_color"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/new_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/new_icon"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="3dp"
+                android:orientation="horizontal">
+
+                <com.sdi.castivate.fonts.ProximaNovaRegular
+                    android:id="@+id/cast_title_city"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/cast_type_no_image"
+                    android:layout_alignBottom="@+id/cast_type_no_image"
+                    android:layout_alignLeft="@+id/cast_type_no_image"
+                    android:text="City"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+
+                <com.sdi.castivate.fonts.ProximaNovaRegular
+                    android:id="@+id/cast_title_state"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/cast_type_no_image"
+                    android:layout_alignBottom="@+id/cast_type_no_image"
+                    android:layout_alignLeft="@+id/cast_type_no_image"
+                    android:text=", City"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+
+                <TextView
+                    android:id="@+id/cast_type_sep_city"
+                    android:layout_width="1dp"
+                    android:layout_height="13dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/cast_sep" />
+
+
+                <com.sdi.castivate.fonts.ProximaNovaRegular
+                    android:id="@+id/cast_type_no_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/paid_status_no_image"
+                    android:layout_alignBottom="@+id/paid_status_no_image"
+                    android:layout_alignLeft="@+id/cast_title_no_image"
+                    android:text="@string/cast_type"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/cast_type_sep_no_image"
+                    android:layout_width="1dp"
+                    android:layout_height="13dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/cast_sep" />
+
+                <com.sdi.castivate.fonts.ProximaNovaRegular
+                    android:id="@+id/paid_status_no_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:text="@string/cast_paid_status"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <!--   </LinearLayout> -->
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layApplied"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/tick_green" />
+
+            <TextView
+                android:id="@+id/imgApplied"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Applied"
+                android:textColor="@color/green" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:background="#979595" />
+
+</LinearLayout>

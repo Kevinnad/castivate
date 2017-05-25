@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="80dp"
+    android:layout_height="80dp">
+
+    <RelativeLayout
+        android:id="@+id/layImage"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:visibility="visible">
+
+        <com.sdi.castivate.image.ContactImageView
+            android:id="@+id/imgProfileImage"
+            android:layout_width="80dp"
+            android:padding="1dp"
+            android:layout_height="80dp"
+            android:background="@drawable/imgbg"
+            android:layout_centerInParent="true"
+            android:layout_margin="10dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/avathar_profile" />
+
+
+        <ImageView
+            android:id="@+id/imgPlay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/video_play_icon"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/imgExpand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/image_delete_icon"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/imgDelete"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerInParent="true"
+            android:layout_alignEnd="@+id/imgExpand"
+            android:scaleType="fitXY"
+            android:src="@drawable/image_delete_icon"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/iv_AddPhoto"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/add_photo_icon"
+        android:visibility="gone" />
+
+
+</RelativeLayout>

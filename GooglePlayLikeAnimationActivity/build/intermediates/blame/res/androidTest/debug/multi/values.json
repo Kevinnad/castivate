@@ -1,0 +1,45 @@
+[
+    {
+        "outputFile": "F:\\New Folder\\Castivate_Studios\\GooglePlayLikeAnimationActivity\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 301,
+                    "endColumn": 58,
+                    "endOffset": 355
+                },
+                "from": {
+                    "file": "F:\\New Folder\\Castivate_Studios\\GooglePlayLikeAnimationActivity\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 301,
+                        "endColumn": 58,
+                        "endOffset": 355
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 360,
+                    "endColumn": 77,
+                    "endOffset": 433
+                },
+                "from": {
+                    "file": "F:\\New Folder\\Castivate_Studios\\GooglePlayLikeAnimationActivity\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 360,
+                        "endColumn": 77,
+                        "endOffset": 433
+                    }
+                }
+            }
+        ]
+    }
+]

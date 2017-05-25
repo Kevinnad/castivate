@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "F:\\New Folder\\Castivate_Studios\\android-support-v7-appcompat\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_fade_in.xml",
+        "source": "F:\\New Folder\\Castivate_Studios\\android-support-v7-appcompat\\build\\intermediates\\bundles\\debug\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "F:\\New Folder\\Castivate_Studios\\android-support-v7-appcompat\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "F:\\New Folder\\Castivate_Studios\\android-support-v7-appcompat\\build\\intermediates\\bundles\\debug\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "F:\\New Folder\\Castivate_Studios\\android-support-v7-appcompat\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_fade_out.xml",
+        "source": "F:\\New Folder\\Castivate_Studios\\android-support-v7-appcompat\\build\\intermediates\\bundles\\debug\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "F:\\New Folder\\Castivate_Studios\\android-support-v7-appcompat\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "F:\\New Folder\\Castivate_Studios\\android-support-v7-appcompat\\build\\intermediates\\bundles\\debug\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "F:\\New Folder\\Castivate_Studios\\android-support-v7-appcompat\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "F:\\New Folder\\Castivate_Studios\\android-support-v7-appcompat\\build\\intermediates\\bundles\\debug\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "F:\\New Folder\\Castivate_Studios\\android-support-v7-appcompat\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "F:\\New Folder\\Castivate_Studios\\android-support-v7-appcompat\\build\\intermediates\\bundles\\debug\\res\\anim\\abc_slide_in_bottom.xml"
+    }
+]

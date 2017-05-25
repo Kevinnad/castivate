@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootFrame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <include
+        layout="@layout/mcam_include_camera_preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+    <!--<RelativeLayout
+        android:id="@+id/controlsFrame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:elevation="@dimen/mcam_toolbar_elevation"
+        android:paddingBottom="@dimen/mcam_content_inset_less"
+        android:paddingLeft="@dimen/mcam_content_inset"
+        android:paddingRight="@dimen/mcam_content_inset"
+        android:paddingTop="@dimen/mcam_content_inset_less"
+        tools:ignore="UnusedAttribute">
+
+        <ImageView
+            android:id="@+id/video"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_centerInParent="true"
+            android:scaleType="fitXY"
+            tools:ignore="ContentDescription"
+            tools:src="@drawable/record_finish" />
+
+        <ImageView
+            android:id="@+id/stillshot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_centerInParent="true"
+            android:scaleType="fitXY"
+            tools:ignore="ContentDescription"
+            android:visibility="gone"/>
+
+    </RelativeLayout>-->
+
+    <ImageView
+        android:id="@+id/video"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"
+        tools:ignore="ContentDescription"
+        tools:src="@drawable/record_icon"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="visible"/>
+
+    <ImageView
+        android:id="@+id/stillshot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitXY"
+        tools:ignore="ContentDescription"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/recordDuration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/mcam_defaultDuration"
+        android:textColor="#fff"
+        android:layout_marginTop="15dp"
+        android:textSize="@dimen/mcam_regular_content_fontsize"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/facing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:padding="10dp"
+        tools:src="@drawable/rear_icon"
+        android:layout_alignBottom="@+id/flash1"
+        android:layout_toLeftOf="@+id/flash1"
+        android:layout_toStartOf="@+id/flash1"
+        android:layout_marginRight="26dp"
+        android:layout_marginEnd="26dp" />
+
+
+    <ImageView
+        android:id="@+id/close_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/close_icon"/>
+
+    <ImageView
+        android:id="@+id/flash1"
+        android:layout_width="@dimen/mcam_action_icon_size_smaller"
+        android:layout_height="@dimen/mcam_action_icon_size_smaller"
+        android:padding="@dimen/mcam_content_inset_less"
+        android:scaleType="fitXY"
+        android:visibility="visible"
+        tools:ignore="ContentDescription"
+        tools:src="@drawable/flash_on"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

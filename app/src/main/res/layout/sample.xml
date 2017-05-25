@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:id="@+id/rl0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/location"
+        android:layout_weight="1"
+        android:orientation="vertical"
+
+        android:visibility="visible">
+
+
+        <com.sdi.castivate.fonts.ProximaNovaRegular
+            android:id="@+id/nationwide"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:drawableLeft="@drawable/checkbox_check"
+            android:hint="Nationwide"
+            android:drawablePadding="15dp"
+            android:padding="20dp"
+            android:textAlignment="center"
+            android:textSize="18sp"
+
+            />
+
+        <RelativeLayout
+            android:id="@+id/tap_current_location"
+            android:layout_width="fill_parent"
+            android:layout_height="170dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignTop="@+id/checkbox_actor"
+            android:background="@drawable/text_box"
+            android:visibility="gone" >
+
+            <include
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                layout="@layout/tap_us_location" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rl1">
+
+            <com.sdi.castivate.fonts.ProximaNovaRegularEditText
+                android:id="@+id/etLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:hint="Enter city"
+                android:layout_alignParentLeft="true"
+                android:singleLine="true"
+                android:maxLength="15"
+                android:padding="20dp"
+                android:textSize="18sp"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/checkbox_check"
+                android:layout_alignParentRight="true"
+                android:layout_toLeftOf="@+id/etLocation"
+                android:id="@+id/iv1"
+                android:layout_centerVertical="true"
+                />
+        </RelativeLayout>
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:id="@+id/lvSample"/>
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  <string name="google_drive_debug_id">648657377894-jkedspgdhk45hilkg5qprhtn5c12up26.apps.googleusercontent.com</string>-->
+
+    <string name="google_drive_debug_id">648657377894-enurfvjn3a4a8bskaakfrb0u00qp3o01.apps.googleusercontent.com</string>
+
+    <string name="google_drive_release_id">648657377894-636373uq4g9uf236iahb1obrun56b7aa.apps.googleusercontent.com</string>
+    <string name="onedrive_client_id">8bd14ff8-d978-46bd-b781-271bd6bf2693</string>
+    <string name="dropbox_app_key">sgrtpe5ngl3qdbb</string>
+    <string name="base64encodedpublickey">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAw5zFrcE01O4GKWcjmagVwR1P5Rx4jm4Cvsyi/QpymslG/ZzYINWS7Xr2JKEJhigx/ow0rOY588hLNIBib35hv87+E3ceZW2mcBq+mgvezHB0QADwSUgo5EyTz4awz9uehVmkPJf5hlugHcX7Lj4tr49NFpkziQAo9xo6zgUW0EN1WdKJlxas5JJt48BHnKFK1u1m+ooPclbn8oi7ZRy9dMky1HTyk/jBIN/tsWZpSuSNz22HszUfMvoyPq+1zRTTVJXXiUQic56qaBS/z1AnifBic17VDcscg3Fqob6U9Xe8CBJDHozxbGxxROXU9m4ZTYzGwJEEy5T7tvUddT4kZQIDAQAB</string>
+
+    <string name="clear_cache_menu">Clear Caches</string>
+    <string name="clear_cache_complete_toast">Caches have been cleared</string>
+    <string name="imageview_description">Image Thumbnail</string>
+    <string name="no_network_connection_toast">No network connection found</string>
+
+
+    <string name="app_name">Castivate</string>
+
+    <string name="cast_title">Captian America 3: Civil War</string>
+    <string name="cast_type">Cast Type</string>
+    <string name="cast_paid_status">Paid Status</string>
+    <string name="ethnicity_role">Ethnicity</string>
+    <string name="role_for">Female</string>
+    <string name="cast_union_status">Non-Union</string>
+    <string name="upload_picture">Hey good lookin!\n<u>Upload your \'pic\' to get noticed</u></string>
+    <string name="actor">Actor</string>
+    <string name="singer">Singer</string>
+    <string name="model">Model</string>
+    <string name="dancer">Dancer</string>
+    <string name="distance">12.90</string>
+    <string name="skip">Skip</string>
+    <string name="castivity">Castivate</string>
+    <string name="my_profile">My Profile</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="thank">Thank you for submitting!</string>
+
+    <string name="thank1">your photo, </string>
+    <string name="add1">Add your Name &amp; Email to be found</string>
+
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="gender">Gender</string>
+    <string name="done">Done</string>
+    <string name="birth_year">Birth Year</string>
+    <string name="current_location">Current Location</string>
+    <string name="preferred_location">Preferred Location</string>
+    <string name="ethnicity">Ethinicity</string>
+    <string name="submit_casting">Post a casting</string>
+    <string name="notification">Notifications</string>
+    <string name="notification_settings">Notifications Settings</string>
+    <string name="notification_text">Notifications for matched castings</string>
+    <string name="auto_submit">Auto submit to matched castings</string>
+
+    <string name="settings">Help</string>
+    <string name="social">Social</string>
+    <string name="support">Support</string>
+    <string name="facebook">Help Screen</string>
+    <string name="twitter">Follow us on Twitter</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="terms_of_use">Terms of Use</string>
+
+    <string name="email_us">Please fill this form or email us at\n<a href='mailto:newscasting@castings.com'></a><font color='#D00000'>newscasting@castings.com</font></string>
+
+    <string name="info">Info</string>
+
+    <string name="title_company_name">Company name</string>
+    <string name="email_id">Your Email ID</string>
+    <string name="production_type">Production Type</string>
+    <string name="job_type">Job Type</string>
+    <string name="submit_email">Submit to Email</string>
+    <string name="submit_date">Submit by Date</string>
+    <string name="casting_location">Castivate call Location</string>
+    <string name="next">Next</string>
+
+    <string name="no_thanks">No, Thanks</string>
+    <string name="submit_photo">Submit</string>
+
+    <string name="details">Details</string>
+    <string name="payment">Payment</string>
+    <string name="union_status">Union Status</string>
+    <string name="paid">Paid</string>
+    <string name="non_paid">Non Paid</string>
+    <string name="tbd">Pay - TBD</string>
+    <string name="union">Union</string>
+    <string name="non_union">Non Union</string>
+    <string name="both_union">Both</string>
+    <string name="production_title">Production Title</string>
+    <string name="age_range">Age Range </string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="role_description">Role Description</string>
+  
+    <string name="role_desc_sample">
+Captian America 3: Civil War is the third installment of the widely popular film series.</string>
+    <string name="casting_details">The casting team for this film is searching for CIA/FBI agent types for various background roles. There are 2 sets of work dates that you have the opportunity to work.</string>
+
+    <string name="submission_details">Submission Details</string>
+    <string name="synopsis">Synopsis</string>
+       <string name="submission_text">Los Angeles, CA - sputnikextras@tscasting.com Submit all info to the email above.
+For more info on the casting and what to submit go to: http://bit.ly/1bdNIha</string>
+
+    <string name="age_range_value">Age 30-40</string>
+    <string name="ethncity_value">Caucasian</string>
+    <string name="male_text">Male</string>
+    <string name="non_union_text">Non-Union</string>
+    <string name="caucasian">Caucasian</string>
+    <string name="african_american">African American</string>
+    <string name="hispanic">Hispanic</string>
+    <string name="asian">Asian</string>
+    <string name="mixed">Mixed</string>
+    <string name="native_american">Native American</string>
+    <string name="middle_eastern">Middle Eastern</string>
+    <string name="other">Other</string>
+    <string name="favorite">Favorites</string>
+    <string name="internet_not_available">Please check your network connection.</string>
+
+
+    <string name="country_prompt">Production Type</string>
+
+
+    <string name="sample_widget">Picasso Sample Widget</string>
+    <string name="sample_notification">Picasso Sample Notification</string>
+    <string name="select_picture">Select Picture</string>
+  <string name="disk_cache_description">On Ice Cream Sandwich and above, a disk cache is
+    automatically used so that subsequent requests for the same URL do not re-download the
+    image.\n\nTo enable this functionality on pre-ICS use a standalone HTTP client with caching such
+    as OkHttp.
+  </string>
+
+    <!--new add this -->
+    <string name="btn_apply">Apply Now</string>
+    <string name="back">Back</string>
+    <string name="edit">Edit</string>
+
+    <!-- castivate monthly details-->
+
+    <string name="txt_monthfree">Apply to any Casting Instantly</string>
+    <string name="txt_getmonth">Get the first month free</string>
+    <string name="txt_chooseplan">Choose from a plan below. You wont be charged until after your free month ends. You can cancel anytime.</string>
+    <string name="txt_chooseplan1">Choose from a plan below. You wont be charged until after your free month ends.</string>
+    <string name="radio_amt">$9.99 for 12 Months</string>
+    <string name="radio_amt1">$0.99 per month</string>
+    <string name="btn_subscribe">Subscribe Now</string>
+
+    <!--Sign in-->
+
+    <string name="txt_title">Castivate</string>
+    <string name="txt_back">Back</string>
+    <string name="txt_signin">Sign In</string>
+    <string name="et_email">Email</string>
+    <string name="et_password">Password</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="btn_signin">Sign In</string>
+    <string name="txt_forgot">Forgot Password</string>
+    <!--<string name="txt_forgot_sign"><u>Forgot Password</u></string>-->
+    <string name="txt_forgot_sign">Forgot your password?</string>
+    <string name="txt_sign">Sign In</string>
+    <string name="txt_sign_up">Sign Up</string>
+    <string name="txt_login">Login</string>
+    <string name="change_pass">Change Password</string>
+
+    <!--  castivate details-->
+    <string name="txt_details">Enter your details</string>
+    <string name="et_name">Name</string>
+    <string name="et_pass">Password</string>
+    <string name="et_cardno">Card Number</string>
+    <string name="et_date">MM/YYYY</string>
+    <string name="et_cv">CVV</string>
+    <string name="zipcode">ZipCode</string>
+    <string name="btn_submit">Submit</string>
+    <string name="casting_file_upload">Photo / Video</string>
+    <string name="resume">Resume</string>
+    <string name="resume_upload">You can upload a resume from Dropbox,Google Drive or OneDrive</string>
+    <string name="image_upload">You can upload a image from Dropbox or Google Drive or OneDrive</string>
+    <string name="audio_upload">You can upload a audio from Dropbox or Google Drive or OneDrive</string>
+    <string name="file_upload">You can upload a file from Dropbox or Google Drive or OneDrive</string>
+    <string name="error_title">Error!</string>
+    <string name="close">Close</string>
+    <string name="wifi_unavailable_error_message">Unable to access the internet, please visit connection settings</string>
+    <string name="thumbnail_description">Thumbnail for %1$s</string>
+    <string name="empty_file">You can use the action bar to modify this file or press the back button to return to the parent folder.</string>
+    <string name="title_activity_signup">Signup</string>
+
+
+    <!--New Workflow4 strings-->
+    <string name="location">Location</string>
+    <string name="photo_video_files">Photos,Videos &amp; Files</string>
+    <string name="profile_notmatching">Your profile does not match this casting</string>
+    <string name="apply_msg">Do you still wish to apply?</string>
+    <string name="apply">Apply</string>
+    <string name="cancel">Cancel</string>
+    <string name="thank_you_msg">Thank you for liking this talent</string>
+    <string name="option">Optional - Compliment this talent, write some encouraging words.</string>
+    <string name="share">Share this photo</string>
+    <string name="lauren">Hi Lauren,</string>
+    <string name="thank_thoughts">Thank you for your thoughts!</string>
+    <string name="email_sent">An email has been sent to </string>
+    <string name="email_confirm">your email for this comment to be posted.</string>
+    <string name="save">Save</string>
+    <string name="casting_require">This casting requires</string>
+    <string name="photo_back">A photo of your back</string>
+    <string name="voice_clip">A 30 seconds voice clip</string>
+    <string name="video_clip">A 30 seconds video clip</string>
+    <string name="all">All</string>
+    <string name="local">Local</string>
+    <string name="applied">Applied</string>
+    <string name="photos">Photos</string>
+    <string name="videos">Videos</string>
+    <string name="files">Files</string>
+    <string name="app_id">928927400542912</string>
+
+</resources>
